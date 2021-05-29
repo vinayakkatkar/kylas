@@ -23,8 +23,11 @@ Or install it yourself as:
 ## Usage
 
 Use Kylas::Setup.initiate(:api_key)
+
 Then 
+
 lead = Kylas::Lead.new(#params)
+
 lead.save
 ## Development
 

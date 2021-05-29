@@ -26,10 +26,9 @@ Use Kylas::Setup.initiate(:api_key)
 
 Then 
 
-@lead = Kylas::Lead.new(:params)
+@lead = Kylas::Lead.new(@params)
 
 @lead.save
-
 
 ## Development
 
